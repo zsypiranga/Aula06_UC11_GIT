@@ -14,5 +14,10 @@ namespace Aula06_UC11_Teste02
         {
             Application.Exit();
         }
+
+        private void bt_exibir_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show($"Nome do Usuario: {tb_nome.Text}");
+        }
     }
 }

@@ -66,12 +66,13 @@
             // 
             // bt_exibir
             // 
-            bt_exibir.Location = new Point(135, 82);
+            bt_exibir.Location = new Point(12, 82);
             bt_exibir.Name = "bt_exibir";
             bt_exibir.Size = new Size(124, 23);
             bt_exibir.TabIndex = 3;
             bt_exibir.Text = "Exibir Nome";
             bt_exibir.UseVisualStyleBackColor = true;
+            bt_exibir.Click += bt_exibir_Click;
             // 
             // Form1
             // 
