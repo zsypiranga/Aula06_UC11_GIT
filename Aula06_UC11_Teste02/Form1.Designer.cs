@@ -33,6 +33,7 @@
             label1 = new Label();
             tb_nome = new TextBox();
             bt_exibir = new Button();
+            button1 = new Button();
             ((System.ComponentModel.ISupportInitialize)sair).BeginInit();
             SuspendLayout();
             // 
@@ -74,12 +75,22 @@
             bt_exibir.UseVisualStyleBackColor = true;
             bt_exibir.Click += bt_exibir_Click;
             // 
+            // button1
+            // 
+            button1.Location = new Point(142, 82);
+            button1.Name = "button1";
+            button1.Size = new Size(124, 23);
+            button1.TabIndex = 4;
+            button1.Text = "Exibir Nome";
+            button1.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Info;
             ClientSize = new Size(468, 359);
+            Controls.Add(button1);
             Controls.Add(bt_exibir);
             Controls.Add(tb_nome);
             Controls.Add(label1);
@@ -98,5 +109,6 @@
         private Label label1;
         private TextBox tb_nome;
         private Button bt_exibir;
+        private Button button1;
     }
 }
