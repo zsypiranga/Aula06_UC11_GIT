@@ -4,6 +4,8 @@ namespace Aula06_UC11_Teste02
     {
         //Construtor  da classe Form1
         // Comentário 2
+
+        //comentario do Alberto
         public Form1()
         {
             InitializeComponent();
