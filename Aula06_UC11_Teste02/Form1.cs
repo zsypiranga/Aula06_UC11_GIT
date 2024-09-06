@@ -2,6 +2,7 @@ namespace Aula06_UC11_Teste02
 {
     public partial class Form1 : Form
     {
+        //Construtor  da classe Form1
         public Form1()
         {
             InitializeComponent();
